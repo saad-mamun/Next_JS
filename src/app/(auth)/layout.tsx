@@ -13,12 +13,8 @@ export default function AuthLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-     
-        {children}
-        <footer className="p-4 bg-black text-white text-2xl">
-          Footer
-        </footer>
+      <body>  
+        {children}    
       </body>
     </html>
   );

@@ -13,9 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <header className="p-4 bg-blue-400 text-2xl text-white">
-        Header
-      </header>
+   
         {children}
         <footer className="p-4 bg-black text-white text-2xl">
           Footer
